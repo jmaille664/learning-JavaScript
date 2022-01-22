@@ -1,0 +1,205 @@
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: 0;
+  padding: 0;
+width: 100%;
+height: 100%;
+margin: 0px;
+padding: 0px;
+overflow-x: hidden;
+}
+
+a.skip-main {
+    left:0;
+    position:absolute;
+    top:-96px;
+    overflow:hidden;
+    z-index:100;
+    padding: 8px, 16px;
+}
+a.skip-main:focus, a.skip-main:active {
+  color: black;
+  background-color: white;
+  left: auto;
+  top: auto;
+  width: 30%;
+  height: auto;
+  overflow:auto;
+  margin: 10px 35%;
+  padding:5px;
+  border-radius: 15px;
+  text-align:center;
+  font-size:1.2em;
+  z-index:100;
+}
+
+
+.navbar{
+  position: absolute;
+  width: 100%;
+  top: 0px;
+  left: 0px;
+  background-color: #9952E0;
+  font-family: 'Exo 2', sans-serif;
+  padding: .3em;
+  display: block;
+  height: 40px;
+  
+}
+.navbar ul {
+  list-style-type: none;
+  margin: 0 auto;
+  padding: 0;
+  overflow: hidden;
+}
+
+.navbar li {
+  float: left;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.navbar a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 0px 16px;
+  text-decoration: none;
+  font-size: 18px;
+  width: 100%;
+}
+
+/* Change the link color to #A3149F on hover */
+.navbar li a:hover {
+  background-color: #7322C3;
+  height: 30px;
+}
+
+h1 {
+  font-style: italic;
+  color: black;
+  font-family: Contax Bold Small;
+  font-size: 3.5rem;
+}
+
+.Hero-section{
+  display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      height: 50vh; 
+  }
+
+
+  .Hero-section > p{
+  font-size: 2rem;
+  font-family: Helvetica Neue;
+  
+  }
+.hero-picture{
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  flex-direction: column;
+  justify-content: center;
+  
+}
+
+
+
+.Achievements-section{
+  display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      height: 50vh;
+
+}
+.hero-picture-2{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  margin-bottom: 60px;
+}
+
+ul {
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  margin: 0px;
+}
+
+li{
+  padding-right: .6em;
+  margin: 1em 0;
+}
+
+#page-container {
+  position: relative;
+  min-height: 100vh;
+}
+
+#content-wrap {
+  padding-bottom: 2.5rem;    /* Footer height */
+}
+
+.about-section{
+  display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      height: 40vh;
+}
+.hero-picture-3{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+  margin-top: 0px;
+  margin-bottom: 10px;
+
+}
+figure{
+  text-align: center;
+}
+p{
+  text-align: center;
+  
+}
+
+footer {
+  position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;            /* Footer height */
+    text-align: center;
+    background:#9952E0;
+}
+
+
+footer .footerLinks ul{
+  list-style-type: none;  
+}
+footer .footerLinks ul li{  
+   float: left;
+  
+}
+footer .footerLinks ul li a{ 
+  padding: 0px 16px;
+    text-decoration: none;
+    color: white;
+    width: 100%;
+    font-size: 16px;
+}
+
+
+.copyright p{
+color: white;
+font-size: 13px;
+}
